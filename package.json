@@ -1,0 +1,30 @@
+{
+  "name": "1auto-login-web",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start:local": "ENV_1AUTO=local vite",
+    "start:qa": "ENV_1AUTO=qa vite",
+    "start:prod": "ENV_1AUTO=production vite",
+    "build:prod": "ENV_1AUTO=production vite build",
+    "build:qa": "ENV_1AUTO=qa vite build",
+    "preview": "ENV_1AUTO=production vite preview"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.7.2",
+    "base-64": "^1.0.0",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "tailwindcss": "^3.4.3",
+    "tw-elements": "^1.0.0",
+    "utf8": "^3.0.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2",
+    "vue3-tel-input": "^1.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
