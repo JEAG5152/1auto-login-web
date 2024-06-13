@@ -9,7 +9,8 @@ const sendRequest = (context, method, url, body = {}, params = {}, session = nul
 			console.log(process.env)
 			const api = configGlobal.api[process.env.ENV_1AUTO]
 			const headers = Object.assign({}, api.headers)
-
+			console.log(api)
+			return
 			let query_string = ''
 			let body_data = ''
 			if(params !== null && Object.keys(params).length > 0) {
