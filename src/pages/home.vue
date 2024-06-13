@@ -99,6 +99,9 @@
             }
 
             onMounted(() => {
+                /* Disaled loading */
+                setLoading(false)
+                    
             	const { register } = route.query
 
             	if (register != undefined && register) {
